@@ -1,0 +1,145 @@
+.photos img {
+    position: absolute;
+}
+
+/*Translation*/
+.photos img:nth-of-type(1) {
+    left: 50px;
+    top: 50px;
+}
+ 
+.photos img:nth-of-type(2) {
+    left: 150px;
+    top: 150px;
+}
+ 
+.photos img:nth-of-type(3) {
+    left: 250px;
+    top: 250px;
+}
+ 
+.photos img:nth-of-type(4) {
+    left: 350px;
+    top: 350px;
+}
+ 
+.photos img:nth-of-type(5) {
+    left: 450px;
+    top: 450px;
+}
+.photos img:nth-of-type(6) {
+    left: 550px;
+    top: 550px;
+}
+.photos img:nth-of-type(7) {
+    left: 650px;
+    top: 650px;
+}
+.photos img:nth-of-type(8) {
+    left: 750px;
+    top: 750px;
+}
+/*Rotation*/
+
+.photos img:nth-of-type(1) {
+    left: 50px;
+    top: 50px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+ 
+photos img:nth-of-type(2) {
+    left: 150px;
+    top: 100px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+ 
+.photos img:nth-of-type(3) {
+    left: 250px;
+    top: 50px;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+ 
+.photos img:nth-of-type(4) {
+    left: 350px;
+    top: 150px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+ 
+.photos img:nth-of-type(5) {
+    left: 450px;
+    top: 50px;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+.photos img:nth-of-type(6) {
+    left: 550px;
+    top: 200px;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+.photos img:nth-of-type(7) {
+    left: 650px;
+    top: 50px;
+    -webkit-transform: rotate(18deg);
+    -moz-transform: rotate(18deg);
+    -o-transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+.photos img:nth-of-type(8) {
+    left: 750px;
+    top: 250px;
+    -webkit-transform: rotate(21eg);
+    -moz-transform: rotate(21deg);
+    -o-transform: rotate(21deg);
+    transform: rotate(21deg);
+}
+/*Adding the Hover Effects*/
+.photos img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 10;
+}
+/* add rotation to each of the images*/
+.photos img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    z-index: 10;
+}
+/*Refining the Effects by Managing Transitions*/
+.photos img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+/*Adding Borders*/
+
+.photos img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 10px 10px 30px 10px;
+    background: white;
+    border: solid 1px black;
+}
